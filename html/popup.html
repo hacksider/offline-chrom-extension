@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SLF Shortcuts</title>
+		<style>
+			body
+			{
+				margin: 0px;
+				-webkit-user-select: none;
+			}
+
+			ul
+			{
+				list-style: none;
+				width: 265px;
+				margin: 0px;
+				padding: 0px;
+			}
+			ul li
+			{
+				padding: 4px 0px 4px 33px;
+				cursor: default;
+			}
+			ul li:hover
+			{
+				background-color: #ebebeb;
+			}
+			ul li:hover span
+			{
+				color: black;
+			}
+			ul li.separator
+			{
+				margin: 3px 0px -5px 0px;
+				border-top: 1px solid #e9e9e9;
+				background: none;
+			}
+			ul li img
+			{
+				margin: 0px 8px -4px -24px;
+			}
+			ul li span
+			{
+				display: block;
+				float: right;
+				margin-right: 20px;
+				color: #a1a192;
+			}
+		</style>
+		<script src="/js/jquery-3.1.1.min.js"></script>
+		<script src="/js/popup.js"></script>
+	</head>
+	<body>
+		<ul>
+			<li data-href="chrome://apps/"><img src="/images/apps.png" />Apps</li>
+			<li data-href="https://www.sunlife.com.ph"><img src="/images/store.png" />Sunlife PH</li>
+			<li data-href="https://www.sunlife.com.hk"><img src="/images/store.png" />Sunlife HK</li>
+			<li data-href="https://www.sunlife.ca"><img src="/images/store.png" />Sunlife Canada</li>
+			<li class="separator"></li>
+			
+		</ul>
+	</body>
+</html>
